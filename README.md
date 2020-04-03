@@ -21,15 +21,15 @@ onPay() {
 render() {
   return (
    <LunaOneWrapper
-        apiKey={`YOUR API KEY HERE`}
-        outletId={YOUR OUTLET ID HERE}
-        dev={true}
-      >
+     apiKey={`YOUR API KEY HERE`}
+     outletId={YOUR OUTLET ID HERE}
+     dev={true} // environment, if true the environment is `development` else if false it's `production`
+     >
     .....
       <TouchableOpacity onPress={this.onPay} >
         <Text>Pay</Text>
       </TouchableOpacity>
-    </LunaOneWrapper>
+   </LunaOneWrapper>
   );
 };
 
