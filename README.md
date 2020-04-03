@@ -7,7 +7,7 @@ Lunaone SDK for React Native Framework.
 ```
 npm install github:uripsubekti13/rn-lunaone-sdk react-native-background-timer --save
 
-react-native link react-native-background-timer
+npx react-native link react-native-background-timer
 ```
 
 ## Examples
