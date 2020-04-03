@@ -19,7 +19,7 @@ npm install github:uripsubekti13/rn-lunaone-sdk --save
 
 ## Examples
 
-```
+```javascript
 import { LunaOneWrapper, LunaOne } from 'rn-lunaone-sdk'
 
 onPay() {
