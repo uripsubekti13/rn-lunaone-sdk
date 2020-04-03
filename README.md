@@ -15,7 +15,7 @@ import { LunaOneWrapper, LunaOne } from 'rn-lunaone-sdk'
 
 onPay() {
   const amount = 10000;
-  LunaOne.pay(amount)
+  LunaOne.pay(amount) // LunaOne.pay(amount: number, transactionId?: string)
 }
 
 render() {
