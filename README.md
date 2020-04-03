@@ -3,11 +3,18 @@
 Lunaone SDK for React Native Framework.
 
 ## Installation
-
+### Install Dependencies
 ```
-npm install github:uripsubekti13/rn-lunaone-sdk react-native-background-timer --save
+npm install react-native-svg --save
+npx react-native link react-native-svg
 
+npm install react-native-background-timer --save
 npx react-native link react-native-background-timer
+```
+
+### Install Module
+```
+npm install github:uripsubekti13/rn-lunaone-sdk --save
 ```
 
 ## Examples
