@@ -2,6 +2,8 @@
 
 Lunaone SDK for React Native Framework.
 
+![](ss.gif)
+
 ## Installation
 ### Install Dependencies
 ```bash
