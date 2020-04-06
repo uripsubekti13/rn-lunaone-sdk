@@ -4,7 +4,7 @@ Lunaone SDK for React Native Framework.
 
 ## Installation
 ### Install Dependencies
-```
+```bash
 npm install react-native-svg --save
 npx react-native link react-native-svg
 
@@ -13,13 +13,13 @@ npx react-native link react-native-background-timer
 ```
 
 ### Install Module
-```
+```bash
 npm install github:uripsubekti13/rn-lunaone-sdk --save
 ```
 
 ## Examples
 
-```
+```javascript
 import { LunaOneWrapper, LunaOne } from 'rn-lunaone-sdk'
 
 onPay() {
