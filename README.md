@@ -15,7 +15,7 @@ npx react-native link react-native-background-timer
 npm install react-native-device-info
 npx react-native link react-native-device-info
 
-npm install react-native-qrcode-scanner
+npm install react-native-qrcode-scanner react-native-camera
 npx react-native link react-native-qrcode-scanner
 
 npm install react-native-permissions
