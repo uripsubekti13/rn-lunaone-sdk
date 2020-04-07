@@ -6,16 +6,19 @@ Lunaone SDK for React Native Framework.
 ## Installation
 ### Install Dependencies
 ```bash
-npm install react-native-svg --save
+npm install react-native-svg
 npx react-native link react-native-svg
 
-npm install react-native-background-timer --save
+npm install react-native-background-timer 
 npx react-native link react-native-background-timer
+
+npm install react-native-device-info
+npx react-native link react-native-device-info
 ```
 
 ### Install Module
 ```bash
-npm install github:uripsubekti13/rn-lunaone-sdk --save
+npm install github:uripsubekti13/rn-lunaone-sdk
 ```
 
 ## Examples
@@ -33,7 +36,8 @@ render() {
    <LunaOneWrapper
      apiKey={`YOUR API KEY HERE`}
      outletId={YOUR OUTLET ID HERE}
-     dev={true} // environment, if true the environment is `development` else if false it's `production`
+     onSuccess={(data) => console.log(data)} // on success callback, its optional
+     dev={true} // if true the environment is `development` else if false it's `production`
      >
     .....
       <TouchableOpacity onPress={this.onPay} >
