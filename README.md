@@ -27,6 +27,15 @@ npx react-native link react-native-permissions
 npm install github:uripsubekti13/rn-lunaone-sdk
 ```
 
+## Setup
+Please add this to your AndroidManifest.xml to allow http request
+```xml
+ <application
+      ...
+      android:usesCleartextTraffic="true" // <= this
+      >
+```
+
 ## Examples
 
 ```javascript
