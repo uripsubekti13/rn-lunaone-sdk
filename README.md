@@ -43,7 +43,8 @@ import { LunaOneWrapper, LunaOne } from 'rn-lunaone-sdk'
 
 onPay() {
   const amount = 10000;
-  LunaOne.pay(amount) // LunaOne.pay(amount: number, transactionId?: string)
+  const searchKey = 'qrisbydana';
+  LunaOne.pay(amount, searchKey) // LunaOne.pay(amount: number, searchKey: string, transactionId?: string)
 }
 
 render() {
@@ -54,7 +55,7 @@ render() {
      onSuccess={(data) => console.log(data)} // on success callback, its optional
      dev={true} // if true the environment is `development` else if false it's `production`
      >
-    .....
+    ...
       <TouchableOpacity onPress={this.onPay} >
         <Text>Pay</Text>
       </TouchableOpacity>
@@ -63,6 +64,6 @@ render() {
 };
 
 ```
-
+<!-- 
 ## Screenshot
-![](ss.gif)
+![](ss.gif) -->
