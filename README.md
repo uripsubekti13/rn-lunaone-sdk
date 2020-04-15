@@ -53,6 +53,7 @@ render() {
      apiKey={`YOUR API KEY HERE`}
      outletId={YOUR OUTLET ID HERE}
      onSuccess={(data) => console.log(data)} // on success callback, its optional
+     onFailed={(err) => console.log(err)}
      dev={true} // if true the environment is `development` else if false it's `production`
      >
     ...
